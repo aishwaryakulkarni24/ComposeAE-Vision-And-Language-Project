@@ -1,4 +1,4 @@
-# ComposeAE - Vision-And-Language-Course-project
+# ComposeAE - Vision-And-Language-Project
 An autoencoder based model, ComposeAE, to learn the composition of image and text query for retrieving images.
 
 # Compositional Learning of Image-Text Query for Image Retrieval : WACV 2021
