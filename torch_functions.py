@@ -23,7 +23,6 @@ import numpy as np
 import torch
 import torchvision
 
-print('aishu torch functions.py')
 def pairwise_distances(x, y=None):
   """
     Input: x is a Nxd matrix
