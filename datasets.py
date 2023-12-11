@@ -25,8 +25,6 @@ import torchvision
 import warnings
 import random
 
-print('aishu datasets.py 1')
-
 class BaseDataset(torch.utils.data.Dataset):
     """Base class for a dataset."""
 
@@ -48,7 +46,6 @@ class BaseDataset(torch.utils.data.Dataset):
             num_workers=num_workers,
             drop_last=drop_last,
             collate_fn=lambda i: i)
-    print('aishu datasets.py 2')
     def get_test_queries(self):
         return self.test_queries
 
@@ -251,7 +248,6 @@ class Fashion200k(BaseDataset):
 
 class MITStates(BaseDataset):
     """MITStates dataset."""
-    print('aishu datatsets.py 3')
     def __init__(self, path, split='train', transform=None):
         super(MITStates, self).__init__()
         self.path = path
