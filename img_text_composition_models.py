@@ -33,9 +33,9 @@ import torch_functions
 
 from bert_serving.client import BertClient
 from torch.autograd import Variable
-print('aishu image text composition')
+
 #bc = BertClient()
-print('aishu after bc')
+
 
 class ConCatModule(torch.nn.Module):
 
