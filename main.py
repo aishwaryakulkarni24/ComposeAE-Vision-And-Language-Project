@@ -48,7 +48,6 @@ from datetime import datetime
 
 torch.set_num_threads(3)
 
-print('aishu main.py 1')
 
 def parse_opt():
     """Parses the input arguments."""
