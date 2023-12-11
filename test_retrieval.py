@@ -20,8 +20,6 @@ import random
 from tqdm import tqdm as tqdm
 from collections import OrderedDict
 
-print('aishu test retrieval.py')
-
 def fiq_test(opt, model, testset):
     model.eval()
 
