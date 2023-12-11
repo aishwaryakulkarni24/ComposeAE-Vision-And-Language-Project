@@ -18,7 +18,6 @@ import string
 import numpy as np
 import torch
 
-print('aishu text model.py')
 class SimpleVocab(object):
 
     def __init__(self):
